@@ -16,7 +16,7 @@ public class Comment {
     @Column(name = "name", nullable = false)
     private String name;
 
-    @Column(name = "description", nullable = false, length = 5000)
+    @Column(name = "description", nullable = false, length = 10000)
     private String description;
 
     @ManyToOne
